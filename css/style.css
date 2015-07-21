@@ -1,0 +1,28 @@
+h1, h4, h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 115px;
+  text-align: center;
+  color: #0AFFF0;
+}
+
+
+h4 {
+  font-family: 'Gentium Basic', serif;
+  font-size: 36px;
+  color: #000000;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  color: #1C7ACC;
+}
+
+
+/*p {
+  font-family: "Crimson Text", Georgia;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-left: 10%;
+  margin-right: 10%;
+}*/
