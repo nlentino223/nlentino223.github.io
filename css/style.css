@@ -1,28 +1,43 @@
-h1, h4, h2 {
+.page-header h1 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 115px;
+  font-size: 96px;
   text-align: center;
   color: #0AFFF0;
 }
 
-
-h4 {
+.page-header h4 {
   font-family: 'Gentium Basic', serif;
-  font-size: 36px;
+  font-size: 24px;
+  text-align: center;
   color: #000000;
 }
 
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
+  text-align: center;
   color: #1C7ACC;
 }
 
+.glyph1 {
+	text-align: center;
+	font-size: 48px;
+  padding-top: 10px;
+}
 
-/*p {
-  font-family: "Crimson Text", Georgia;
-  font-size: 22px;
-  line-height: 1.5;
-  margin-left: 10%;
-  margin-right: 10%;
-}*/
+.glyph2 {
+	text-align: center;
+	font-size: 40px;
+  padding-top: 10px;
+}
+
+.mainLinks a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 48px;
+  text-align: center;
+  color: #1C7ACC;
+}
+
+a:hover {
+    color: #FF4A92;
+}
