@@ -38,6 +38,11 @@ h2 {
   color: #1C7ACC;
 }
 
+/*.mainLinks {
+  text-align: center;
+  font-size: 24px;
+}*/
+
 a:hover {
     color: #FF4A92;
 }
