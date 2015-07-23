@@ -8,10 +8,9 @@
 
   <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
@@ -26,6 +25,62 @@
 
 
 <body>
+
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Ms. Lentino</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active">
+            <a href="index.html">
+              <span class="glyphicon glyphicon-home" style="color:#1C7ACC"></span>
+            </a>
+          </li>
+          <li class="dropdown">
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+              <span class="glyphicon glyphicon-education" style="color:#1C7ACC"></span>
+              <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a href="#">CS __</a></li>
+              <li><a href="#">CS __</a></li>
+              <li><a href="#">Startup Tech</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="resources.html">
+              <span class="glyphicon glyphicon-alert" style="color:#1C7ACC"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-book" style="color:#1C7ACC"></span>
+            </a>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-user"></span> Sign Up</a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="glyphicon glyphicon-log-in"></span> Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
   <div class="container-fluid">
     <div class="page-header">
       <h1>
@@ -39,13 +94,16 @@
     <hr>
 
     <div class="mainLinks">
-      <h2>Computer Science
+      <h2>
+        <a href="#">Computer Science</a>
         <div class="glyph1">
           <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
         </div>
       </h2>
 
-      <br><br><br>
+      <br>
+      <br>
+      <br>
 
       <h2>
         <a href="resources.html">CS Resources</a>
@@ -53,6 +111,18 @@
           <span class="glyphicon glyphicon-alert" aria-hidden="true"></span>
         </div>
       </h2>
+
+      <br>
+      <br>
+      <br>
+
+      <h2>
+        <a href="#">Good Reads</a>
+        <div class="glyph2">
+          <span class="glyphicon glyphicon-book" aria-hidden="true"></span>
+        </div>
+      </h2>
+
     </div>
 
 
