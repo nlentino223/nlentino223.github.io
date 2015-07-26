@@ -1,9 +1,17 @@
-.page-header h1 {
+#main.page-header h1 {
   font-family: 'Open Sans', sans-serif;
   font-size: 96px;
   text-align: center;
-  color: #0AFFF0;
+  color: #6ed3cf;
   padding-top: 15px;
+}
+
+.container-fluid {
+  background-color: #ffffff;
+}
+
+#navtop.container-fluid {
+  background-color: #3b3a36;
 }
 
 /*.page-header h4 {
@@ -17,7 +25,7 @@ h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
   text-align: center;
-  color: #1C7ACC;
+  color: #e1e8f0;
 }
 
 .glyph1 {
@@ -30,14 +38,14 @@ h2 {
 	text-align: center;
 	font-size: 40px;
   padding-top: 10px;
-  color: #1C7ACC;
+  color: #e1e8f0;
 }
 
 .mainLinks a {
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
   text-align: center;
-  color: #1C7ACC;
+  color: #9068be;
 }
 
 /*.mainLinks {
@@ -46,5 +54,5 @@ h2 {
 }*/
 
 a:hover {
-    color: #FF4A92;
+    color: #e62739;
 }
