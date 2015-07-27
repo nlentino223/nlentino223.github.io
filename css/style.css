@@ -67,6 +67,10 @@ h2 {
   text-align: center;
 }
 
+.modal-open .modal,.btn:focus,a:focus{
+    outline:none!important;
+}
+
 /*.mainLinks {
   text-align: center;
   font-size: 24px;
