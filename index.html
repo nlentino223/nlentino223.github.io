@@ -4,22 +4,24 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Lentino Homepage</title>
+  <title>Ms. Lentino</title>
 
   <!-- Latest compiled and minified CSS -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<!-- Optional theme -->
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Latest compiled and minified JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" href="css\style.css">
+  <link rel="stylesheet" href="css\style.css">
 
-<!-- Google Fonts -->
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <!-- Google Fonts -->
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Gentium+Basic' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Neuton:700' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Exo+2' rel='stylesheet' type='text/css'>
 
 </head>
 
@@ -86,31 +88,56 @@
       <h1>
         <strong>Ms. Lentino</strong>
       </h1>
-      <!-- <h4>
-        <strong>MS/HS 223 - The Lab School of Finance & Technology</strong>
-      </h4> -->
     </div>
 
-    <hr>
 
     <div class="mainLinks">
-      <h2>
-        <a href="#">Courses</a>
-        <div class="glyph1">
-          <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
-        </div>
-      </h2>
+      <div class="row">
+        <div class="col-sm-6">
+          <!-- Trigger the modal with a link -->
+          <h2><center><a data-toggle="modal" href="#myModal">Courses</a></center></h2>
 
-      <br>
-      <br>
-      <br>
+          <!-- Modal -->
+          <div class="modal fade" id="myModal" role="dialog">
+            <div class="modal-dialog modal-sm">
 
-      <h2>
-        <a href="resources.html">CS Resources</a>
-        <div class="glyph1">
-          <span class="glyphicon glyphicon-alert" aria-hidden="true"></span>
+              <!-- Modal content-->
+              <div class="modal-content">
+
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h2 class="modal-title" style="color:#6ed3cf">Courses</h2>
+                </div>
+
+                <div class="modal-body">
+                  <p><a href="#" style="font-family:'Exo 2',sans-serif;font-size:36px;text-align:center">CS __</a></p>
+                  <p><a href="#" style="font-family:'Exo 2',sans-serif;font-size:36px;text-align:center">CS __</a></p>
+                  <p><a href="#" style="font-family:'Exo 2',sans-serif;font-size:36px;text-align:center">Startup Tech</a></p>
+                </div>
+
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+
+          <div class="glyph1a">
+            <span class="glyphicon glyphicon-education" aria-hidden="true"></span>
+          </div>
         </div>
-      </h2>
+
+        <div class="col-sm-6">
+          <h2>
+            <a href="resources.html">CS Resources</a>
+            <div class="glyph1">
+              <span class="glyphicon glyphicon-alert" aria-hidden="true"></span>
+            </div>
+          </h2>
+        </div>
+      </div>
 
       <br>
       <br>
