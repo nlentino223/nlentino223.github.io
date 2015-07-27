@@ -21,25 +21,27 @@
   color: #000000;
 }*/
 
+/*.keeping h2 in case I use h2 on another page}*/
 h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 48px;
   text-align: center;
-  color: #e1e8f0;
+  color: #9068be;
 }
 
 .glyph1 {
 	text-align: center;
 	font-size: 48px;
   padding-top: 10px;
+  color: #999999;
 }
 
-.glyph2 {
+/*.glyph2 {
 	text-align: center;
 	font-size: 40px;
   padding-top: 10px;
   color: #e1e8f0;
-}
+}*/
 
 .mainLinks a {
   font-family: 'Montserrat', sans-serif;
