@@ -80,8 +80,47 @@ a:hover {
     color: #e62739;
 }
 
-.btmQuote {
+/*.btmQuote {
   font-family: 'Old Standard TT', serif;
   font-size: 20px;
   text-align: center;
+}*/
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px; /* Set the fixed height of the footer here */
+  text-align: center;
+  color: #ffffff;
+  background-color: #1C2841;
+  padding-top: 10px;
+}
+
+/*#navbtm.navbar-header {
+  text-align: center;
+  color: #ffffff;
+  background-color: #1C2841;
+  padding-top: 10px
+}*/
+
+#jeterQuote {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+}
+
+#jeterName {
+  font-family: 'Playball', cursive;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px;
 }
