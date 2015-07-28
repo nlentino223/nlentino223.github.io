@@ -116,11 +116,12 @@ a:hover {
 }
 
 html {
-  /*position: relative;*/
+  position: relative;
   min-height: 100%;
 }
 
 body {
   /* Margin bottom by footer height */
   margin-bottom: 60px;
+  overflow-x: hidden;
 }
