@@ -85,14 +85,3 @@ a:hover {
   font-size: 20px;
   text-align: center;
 }
-
-#navbtm.navbar-header {
-  text-align: center;
-  color: #ffffff;
-  background-color: #1C2841;
-  padding-top: 10px
-}
-
-#jeterQuote {
-  font-family: 'Muli', sans-serif;
-}
