@@ -89,7 +89,7 @@ a:hover {
 .footer {
   position: absolute;
   bottom: 0;
-  width: 100%;
+  width: 97%;
   height: 60px; /* Set the fixed height of the footer here */
   text-align: center;
   color: #ffffff;
