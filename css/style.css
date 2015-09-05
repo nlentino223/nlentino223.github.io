@@ -1,9 +1,8 @@
 #main.page-header h1 {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size: 96px;
   text-align: center;
   color: #6ed3cf;
-  padding-top: 15px;
 }
 
 .navbar-nav {
@@ -36,7 +35,7 @@
 }*/
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 48px;
   text-align: center;
   color: #9068be;
@@ -63,7 +62,7 @@ h2 {
 }*/
 
 .modal-header h2 {
-  font-family: 'Neuton', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 48px;
   text-align: left;
 }
@@ -77,14 +76,14 @@ h2 {
 }
 
 .mainSection a {
-  font-family: 'Neuton', serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 48px;
   text-align: center;
   color: #9068be;
 }
 
 .modal-body p {
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   text-align: center;
 }
@@ -105,15 +104,15 @@ p {
 }
 
 a:hover {
-    color: #ff4447;
+  color: #7f7f7f;
 }
 
-h1 {
+/*h1 {
   font-family: 'Neuton', serif;
   font-size: 48px;
   text-align: left;
   color: #9068be;
-}
+}*/
 
 .site-footer {
   text-align: center;
@@ -121,20 +120,33 @@ h1 {
   height: 60px;
 }
 
-h3 {
-  font-family:'Exo 2',sans-serif;
-  font-size:36px;
-  text-align:center;
-  color: #000000;
-}
 
 
 /*startup tech page*/
 
+#sut.page-header h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 96px;
+  color: #6ed3cf;
+}
+
 .mainLinks a {
   color: #000000;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .mainLinks a:hover {
-  color: #a7aea7;
+  color: #7f7f7f;
+}
+
+h3 {
+  /*font-family:'Exo 2',sans-serif;*/
+  font-size:30px;
+  text-align: center;
+}
+
+.unitTitles h3 {
+  font-weight: bold;
+  text-align: left;
 }
