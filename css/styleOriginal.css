@@ -5,6 +5,35 @@
   color: #6ed3cf;
 }
 
+/*.navbar-nav {
+  font-family:'Open Sans',sans-serif;
+  color: #999999;
+}
+
+#navtop {
+  padding-right: 10px;
+}
+
+.container-fluid {
+  background-color: #ffffff;
+}
+
+#navtop.container-fluid {
+  background-color: #3b3a36;
+}
+
+.navbar-brand {
+  padding: 7px 10px;
+  display: inline-block;
+}*/
+
+/*.page-header h4 {
+  font-family: 'Gentium Basic', serif;
+  font-size: 24px;
+  text-align: center;
+  color: #000000;
+}*/
+
 h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 48px;
@@ -12,23 +41,35 @@ h2 {
   color: #9068be;
 }
 
+.glyph1a {
+	text-align: center;
+	font-size: 48px;
+  color: #999999;
+}
+
 .glyph1 {
 	text-align: center;
 	font-size: 48px;
-  padding-top: 15px;
+  padding-top: 10px;
   color: #999999;
-  padding-bottom: 10px;
 }
 
-.glyph2 {
-  padding-bottom: 10px;
-}
+/*.glyph2 {
+	text-align: center;
+	font-size: 40px;
+  padding-top: 10px;
+  color: #e1e8f0;
+}*/
 
 .modal-header h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 36px;
   text-align: left;
 }
+
+/*.mainSection {
+  max-width: 1040px;
+}*/
 
 .mainSection {
   text-align: center;
@@ -51,6 +92,11 @@ h2 {
     outline:none!important;
 }
 
+/*.mainLinks {
+  text-align: center;
+  font-size: 24px;
+}*/
+
 p {
   font-family: 'Open Sans', sans-serif;
   font-size: 24px;
@@ -60,6 +106,13 @@ p {
 a:hover {
   color: #7f7f7f;
 }
+
+/*h1 {
+  font-family: 'Neuton', serif;
+  font-size: 48px;
+  text-align: left;
+  color: #9068be;
+}*/
 
 .site-footer {
   text-align: center;
