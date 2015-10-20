@@ -1,0 +1,28 @@
+/*startup tech page*/
+
+#sut.page-header h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 96px;
+  color: #6ed3cf;
+}
+
+.mainLinks a {
+  color: #000000;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.mainLinks a:hover {
+  color: #7f7f7f;
+}
+
+h3 {
+  /*font-family:'Exo 2',sans-serif;*/
+  font-size:30px;
+  text-align: center;
+}
+
+.unitTitles h3 {
+  font-weight: bold;
+  text-align: left;
+}
