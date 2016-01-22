@@ -23,7 +23,12 @@ h1 {
   font-size: 48px;
   text-align: center;
   /*color: #de68be;*/
-  color: #FF56F5;
+  /*color: #FF56F5;*/ /*pink*/
+  /*color: #f7786b;*/ /*peach echo*/
+  /*color: #034f84;*/ /*snorkel*/
+  /*color: #91A8d0;*/ /*serenity*/
+  /*color: #F75D7C;*/
+  color: #F73D7C;
   font-weight: bold;
 }
 
