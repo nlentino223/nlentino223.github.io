@@ -1,0 +1,23 @@
+/*cs 9*/
+
+#cs9.page-header h1 {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 96px;
+  color: #6ed3cf;
+}
+
+.studentSites h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 36px;
+  color: #F73D7C;
+  font-weight: bold;
+}
+
+.studentSites p {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 24px;
+}
+
+.studentSites a:hover {
+  color: #7f7f7f;
+}
