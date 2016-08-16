@@ -3,7 +3,12 @@
 #sut.page-header h1 {
   font-family: 'Josefin Sans', sans-serif;
   font-size: 96px;
-  color: #6ed3cf;
+  /*color: #6ed3cf;*/
+  color: #4EBFB4;
+}
+
+small {
+  color: #7f7f7f !important;
 }
 
 .mainLinks a {
